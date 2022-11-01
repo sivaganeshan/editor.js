@@ -1,6 +1,6 @@
 {
   "name": "customeditorjsbippv3",
-  "version": "2.25.2",
+  "version": "2.52.3",
   "description": "Editor.js — Native JS, based on API and Open Source",
   "main": "dist/editor.js",
   "types": "./types/index.d.ts",
@@ -38,7 +38,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codex-team/editor.js.git"
+    "url": "git+https://github.com/sivaganeshan/editor.js.git"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
