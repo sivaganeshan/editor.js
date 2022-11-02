@@ -1,6 +1,6 @@
 {
   "name": "customeditorjsbippv3",
-  "version": "2.52.3",
+  "version": "2.52.4",
   "description": "Editor.js — Native JS, based on API and Open Source",
   "main": "dist/editor.js",
   "types": "./types/index.d.ts",
