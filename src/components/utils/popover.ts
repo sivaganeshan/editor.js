@@ -32,6 +32,10 @@ export interface PopoverItem {
   secondaryLabel?: string;
 
   /**
+   * short description of a Block Tool
+   */
+  shortDescription?: string;
+  /**
    * Itm click handler
    *
    * @param item - clicked item
@@ -378,6 +382,12 @@ export default class Popover extends EventsDispatcher<PopoverEvent> {
     if (item.secondaryLabel) {
       el.appendChild(Dom.make('div', Popover.CSS.itemSecondaryLabel, {
         textContent: item.secondaryLabel,
+      }));
+    }
+
+    if (item.shortDescription) {
+      el.appendChild(Dom.make('div', Popover.CSS.itemSecondaryLabel, {
+        textContent: item.shortDescription,
       }));
     }
 

@@ -22,6 +22,11 @@ export interface ToolboxConfigEntry {
   icon?: string;
 
   /**
+   * short description of a Block Tool
+   */
+   shortDescription?: string;
+   
+  /**
    * May contain overrides for tool default config
    */
   data?: BlockToolData
